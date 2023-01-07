@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.css" />
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>CARUZ - купля и продажа автомобилей</title>
+</head>
+
+<body>
+
+    <!-- Header/Navbar Start -->
+    <header>
+<div class="container">
+<div class="header-content">
+
+    <div id="MenuBtn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo2"><span class="span-logo">CAR</span>UZ</a>
+
+    <nav class="navbar">
+        <a href="#">Главная</a>
+        <a href="#vehicle">Топовые</a>
+        <a href="#cars">Объявления</a>
+        <a href="#brand">Марки</a>
+        <a href="#services">Услуги</a>
+        <a href="#review">Отзывы</a>
+    </nav>
+
+    <div id="add-button">
+      <button class="add-button"><i class="fas fa-plus-circle"></i>Подать объявление</button>
+    </div>
+
+
+    <div id="LoginBtn">
+        <button class="btn">Вход</button>
+        <i class="fas fa-user"></i>
+    </div>
+
+</div>
+</div>
+
+    </header>
+    <!-- Header/Navbar End -->
+
+    <!-- Login Form Container/Popup -->
+    <div class="loginFormContainer">
+        <span id="CloseLoginForm" class="fas fa-times"></span>
+
+        <form class="login-form" action="">
+            <h3 class="form-title">Войти в Мой профиль</h3>
+            <input type="email" placeholder="Email" required class="box">
+            <input type="password" placeholder="Password" required class="box">
+            <p><a href="#">ЗАРЕГИСТРИРОВАТЬСЯ</a></p>
+            <p><a href="#">Забыли пароль?</a></p>
+            <button class="btn">Войти</button>
+            <p>Входя в раздел Мой профиль, вы принимаете Условия использования сайта</p>
+            <!-- <p>войти через аккаунт</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div> -->
+        </form>
+
+    </div>
+    <!-- Login Form Container/Popup -->
+   
+
+<!-- MAIN PAGE START -->    
+<div class="mainpic">
+  <div class="maintext"><a href="#" class="logo"><h3 class="h33">car<span class="spanlogo">uz</span></h3>
+    <p class="underlogo">Широкие возможности <br>купли и продажи <span class="spanlogo"> легковых автомобилей</span></p>
+  </a>
+</div class="logo">
+  <img src="images/logo.gif" />
+</div>
+<!-- MAIN PAGE ENDS -->   
+
+
+
+<!-- Icons Container Start -->
+<section class="iconsContainer">
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+
+        <div class="content">
+            <h3>74100+</h3>
+            <p>Продано авто</p>
+        </div>
+
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-dollar"></i>
+        <div class="content">
+            <h3>2758720+</h3>
+            <p>Валютный оборот</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>255160+</h3>
+            <p>Пользователей</p>
+        </div>
+    </div>
+
+
+    <div class="icons">
+        <i class="fas fa-gear"></i>
+        <div class="content">
+            <h3>451000+</h3>
+            <p>Продано запчастей</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- Icons Container End -->
+
+
+
+    <!-- Vehicle Section Start -->
+    <section id="vehicle" class="vehicle">
+        <h1 class="heading">Топовые</h1>
+
+        <div class="swiper VehiclesSlider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/car1.jpg" alt="">
+                    <div class="content">
+                        <h3>Chevrolet Malibu 2</h3>
+                        <div class="price">Цена: $ 42 000</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Автомат
+                            <span class="fas fa-circle"></span>Бензин
+                            <span class="fas fa-circle"></span>10 000 км
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car3.jpg" alt="">
+                    <div class="content">
+                        <h3>Chevrolet Tracker 2</h3>
+                        <div class="price">Цена: $ 35 000</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Автомат
+                            <span class="fas fa-circle"></span>Бензин
+                            <span class="fas fa-circle"></span>15 000 км
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car4.jpg" alt="">
+                    <div class="content">
+                        <h3>Chevrolet Tahoe</h3>
+                        <div class="price">Цена: $ 82 000</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Автомат
+                            <span class="fas fa-circle"></span>Бензин
+                            <span class="fas fa-circle"></span>12 000 км
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car5.png" alt="">
+                    <div class="content">
+                        <h3>Chevrolet Traverse</h3>
+                        <div class="price">Цена: $ 65 000</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Автомат
+                            <span class="fas fa-circle"></span>Бензин
+                            <span class="fas fa-circle"></span>8 000 км
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/car-6.jpg" alt="">
+                    <div class="content">
+                        <h3>Chevrolet Equinox</h3>
+                        <div class="price">Цена: $ 42 000</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Автомат
+                            <span class="fas fa-circle"></span>Бензин
+                            <span class="fas fa-circle"></span>5 000 км
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/car5.jpg" alt="">
+                    <div class="content">
+                        <h3>Chevrolet Trailblazer</h3>
+                        <div class="price">Цена: $ 52 000</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Автомат
+                            <span class="fas fa-circle"></span>Бензин
+                            <span class="fas fa-circle"></span>9 000 км
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+      </section>
+    <!-- Vehicle Section End -->
+
+
+ <!-- ALL THE CARS -->
+ <h1 class="heading">Объявления</h1>
+ <section id="cars" class="cars">
+       
+    <div class="car-table">
+        <div class="car-img"><img src="images/car-4.jpg"/></div>
+        <div class="info">
+            <h2>Cadillac Escalade</h2>
+            <ul>
+               <li><div class="info-box"><i class="fas fa-car"></i></div><p>2022 года выпуска</p></li>
+               <li><div class="info-box"><i class="fas fa-gas-pump"></i></div><p>Бензиновый двигатель</p></li>
+               <li><div class="info-box"><i class="fas fa-road"></i></div><p>10 000 км пробега</p></li>
+               <li><div class="info-box"><i class="fas fa-dollar-sign"></i></div><p>Цена: $ 49 000</p></li>
+            </ul>
+        </div>
+        <div class="detail">
+            <div id="container">
+                <div class="heart-like-button"></div>
+            </div>
+        <button class="btn2">подробно</button>
+        </div>
+    </div>
+    <div class="car-table">
+        <div class="car-img"><img src="images/car-4.jpg"/></div>
+        <div class="info">
+            <h2>Cadillac Escalade</h2>
+            <ul>
+               <li><div class="info-box"><i class="fas fa-car"></i></div><p>2022 года выпуска</p></li>
+               <li><div class="info-box"><i class="fas fa-gas-pump"></i></div><p>Бензиновый двигатель</p></li>
+               <li><div class="info-box"><i class="fas fa-road"></i></div><p>10 000 км пробега</p></li>
+               <li><div class="info-box"><i class="fas fa-dollar-sign"></i></div><p>Цена: $ 49 000</p></li>
+            </ul>
+        </div>
+        <div class="detail">
+            <div id="container">
+                <div class="heart-like-button"></div>
+            </div>
+        <button class="btn2">подробно</button>
+        </div>
+    </div>
+    <div class="car-table">
+        <div class="car-img"><img src="images/car-4.jpg"/></div>
+        <div class="info">
+            <h2>Cadillac Escalade</h2>
+            <ul>
+               <li><div class="info-box"><i class="fas fa-car"></i></div><p>2022 года выпуска</p></li>
+               <li><div class="info-box"><i class="fas fa-gas-pump"></i></div><p>Бензиновый двигатель</p></li>
+               <li><div class="info-box"><i class="fas fa-road"></i></div><p>10 000 км пробега</p></li>
+               <li><div class="info-box"><i class="fas fa-dollar-sign"></i></div><p>Цена: $ 49 000</p></li>
+            </ul>
+        </div>
+        <div class="detail">
+            <div id="container">
+                <div class="heart-like-button"></div>
+            </div>
+        <button class="btn2">подробно</button>
+        </div>
+    </div>
+          
+
+<!-- SHOW MORE BUTTON -->
+    <div>
+        <button class="more">показать еще <i class="fas fa-arrow-circle-right"></i></button>
+    </div>
+    
+    </section>
+<!-- ALL THE CARS SECTION ENDS -->
+
+
+
+
+<!----brand--->
+<div id="brand" class="brand-logos">
+<h1 class="heading">Поиск по марке автомобиля</h1>
+</div>
+<section class="brand">
+
+        <div class="brand-content">
+      <div class="main">
+        <img src="images/brand1.png">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand2.png">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand3.png">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand4.png">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand5.png">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand6.png">
+      </div>
+      <div class="main">
+        <img src="images/brand7.jpg">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand8.png">
+      </div>
+      <div class="main">
+        <img src="images/brand9.png">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand10.jfif">
+      </div>
+      <div class="main">
+        <img src="images/brand11.png">
+      </div>
+      <div class="main">
+        <img src="images/brand12.png">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand13.png">
+      </div>
+      <div class="main">
+        <img src="images/brand14.png">
+      </div>
+      <div class="main">
+        <img src="images/brand15.png">
+      </div>
+  
+      <div class="main">
+        <img src="images/brand16.png">
+      </div>
+      <div class="main">
+        <img src="images/brand17.png">
+      </div>
+      <div class="main">
+        <img src="images/brand18.png">
+      </div>
+      <div class="main">
+        <img src="images/brand19.png">
+      </div>
+      <div class="main">
+        <img src="images/brand20.png">
+      </div>
+      <div class="main">
+        <img src="images/brand21.png">
+      </div>
+      <div class="main">
+        <img src="images/brand22.png">
+      </div>
+      <div class="main">
+        <img src="images/brand23.png">
+      </div>
+      <div class="main">
+        <img src="images/brand24.png">
+      </div>
+  
+    </div>
+  </section>
+  
+
+    <!-- Service Section Start -->
+    <section id="services" class="services">
+        <h1 class="heading">Услуги</h1>
+
+        <div class="boxContainer">
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Ремонт</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis sapiente suscipit
+                    explicabo natus ducimus?</p>
+                
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Страхование</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis sapiente suscipit
+                    explicabo natus ducimus?</p>
+               
+            </div>
+
+            <div class="box">
+                <i class="fas fa-oil-can"></i>
+                <h3>Замена масла</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis sapiente suscipit
+                    explicabo natus ducimus?</p>
+                
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-on"></i>
+                <h3>24/7 автозапчасти</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis sapiente suscipit
+                    explicabo natus ducimus?</p>
+              
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Service Section End -->
+
+    
+    <!-- Review Section Start -->
+    <section id="review" class="review">
+        <h1 class="heading">Отзывы наших пользователей</h1>
+
+        <div class="swiper ReviewSlider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/user1.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia exercitationem ratione
+                            voluptates aspernatur, eum sed.</p>
+                        <h3>Анатолий Коваленко</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/user2.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia exercitationem ratione
+                            voluptates aspernatur, eum sed.</p>
+                        <h3>Сардор Рахимов</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/user3.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia exercitationem ratione
+                            voluptates aspernatur, eum sed.</p>
+                        <h3>Нигора Саттарова</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/user4.png" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia exercitationem ratione
+                            voluptates aspernatur, eum sed.</p>
+                        <h3>Анна Демьяненко</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Review Section End -->
+
+<!---- FOOTER --->
+<section class="footer" id="contact">
+    <div class="main-contact">
+        <h2>CAR<span class="spanlogo2">UZ</span></h2>
+        <h5>Широкие возможности купли <br>и продажи легковых автомобилей<h5>
+    </div>
+
+    <div class="main-contact">
+        <h3>Навигация</h3>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#vehicle">Топовые</a></li>
+        <li><a href="#cars">Объявления</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#review">Отзывы</a></li>
+    </div>
+
+    <div class="main-contact">
+        <h3>Соцсети</h3>
+        <li><a href="#">Telegram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+    </div>
+    
+</section>
+
+<div class="last-text">
+    <p>CARUZ © 2022, Все права защищены.</p>
+</div>
+
+<!----scroll top--->
+<!-- <a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a> -->
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
+    <!-- Script For JS -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
